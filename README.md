@@ -2,8 +2,7 @@
 
 # Line Follower Robot – Olimpiadi Robotiche 2019
 
-Arduino powered autonomous line follower developed for the Italian "Olimpiadi Robotiche" (Makerslab.it)
-
+Arduino powered autonomous line follower developed for the Italian ["Olimpiadi Robotiche"](https://www.makerslab.it/olimpiadi-robotiche/)
 ## 🇮🇹 Descrizione (Italiano)
 Questo progetto documenta il robot sviluppato per la disciplina **Line Follower** delle *Olimpiadi Robotiche*, organizzate da Makerslab.it e Blu Nautilus. Il robot utilizza tre sensori IR per rilevare una pista nera su fondo chiaro e due servi (trattati come motori) per muoversi e correggere la traiettoria. L'algoritmo è stato ottimizzato per gestire:
 - avvio controllato (fase di posizionamento prima di `partito = 1`)
