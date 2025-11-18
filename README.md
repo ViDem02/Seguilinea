@@ -98,34 +98,3 @@ Decommentare ed eseguire `testMotori();` (chiamandolo manualmente dentro `loop()
 | Bluetooth (SoftwareSerial) | Start remoto e telemetria |
 | Odometria / encoder | Misura distanza / analisi performance |
 | Safety timeout | Recupero da loop bloccati |
-
-## Troubleshooting
-- Servo vibra a fermo: assicurarsi che valore `90` venga scritto e poi servo `detach()`.
-- Sensori sempre `1`: controllare pull-up / polarità; verificare contrasto pista.
-- Robot non parte: confermare sequenza incrementi di `i` durante fase di avvio (controllare log `PARTITO`).
-- Curve troppo lunghe: ridurre valori in `muoviMotori()` durante fase di recupero (es. `70,50`).
-
-## Portfolio Notes
-Questo progetto evidenzia: problem solving embedded, gestione stato con risorse limitate, ottimizzazione empirica, log seriale interpretativo. È una buona base per mostrare crescita verso algoritmi più avanzati (PID, sensor fusion).
-
-## License / Licenza
-Attualmente nessuna licenza formale. Aggiungere ad esempio MIT se si intende la condivisione aperta.
-
-## Credits
-- Evento: Makerslab.it – Olimpiadi Robotiche
-- Sviluppo & Documentazione: (Inserisci tuo nome)
-
-## Next Steps (Suggeriti)
-- Aggiungere foto del robot (`/docs/images/`)
-- Aggiungere schema cablaggio (Fritzing) e diagramma stato
-- Inserire sezione performance (tempo sul circuito, stabilità)
-
----
-### Quick Reference (EN)
-Upload sketch → Open Serial @9600 → Align on track → Wait for autonomous start (`partito` set) → Observe corrections.
-
-### Riferimento Rapido (IT)
-Carica sketch → Apri Serial @9600 → Allinea sulla pista → Attendi avvio autonomo (`partito`) → Osserva correzioni.
-
----
-Se desideri ulteriori ottimizzazioni o un refactor (es. introduzione PID), apri una issue o proponi modifiche.
